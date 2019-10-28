@@ -10,12 +10,13 @@
     <sideNav></sideNav>
 
     <v-content>
+      <router-view></router-view>
     </v-content>
   </v-app>
 </template>
 
 <script>
-import { mapActions}  from 'vuex';
+import { mapActions }  from 'vuex';
 import sideNav from './components/sideNav';
 export default {
   name: 'App',
